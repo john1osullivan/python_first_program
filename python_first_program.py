@@ -1,4 +1,10 @@
 print("please tell me your favourite colour")
-user_input: str = input()
+colour: str = input()
 
-print("your favourite colour is  " + user_input)
+if colour == "red":
+    print("that's my favourite colour!!!")
+elif colour == "black":
+    print("you're dead inside")
+else:
+    print("your favourite colour is  " + colour)
+
